@@ -1,0 +1,22 @@
+{
+  "seed": 1,
+  "N": 80,
+  "capacity": 80,
+  "v_truck": 1.0,
+  "endurance": 0.8,
+  "recharge": 0.1,
+  "epochs": 3000,
+  "K": 64,
+  "eval_only": false,
+  "window": 10,
+  "save_json": true,
+  "make_plots": true,
+  "out_dir": "runs",
+  "tag": "adv_pointer",
+  "scheduler": "beam",
+  "truck_method": "alns",
+  "rl_policy": "pointer",
+  "scst_epochs": 0,
+  "scst_batch": 16,
+  "scst_beam": 8
+}

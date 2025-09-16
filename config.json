@@ -1,0 +1,29 @@
+{
+  "seed_list": [
+    1,
+    2,
+    3
+  ],
+  "N": 50,
+  "capacity": 50,
+  "v_truck": 1.0,
+  "endurance": 0.7,
+  "recharge": 0.1,
+  "epochs": 2000,
+  "K": 32,
+  "eval_only": false,
+  "save_json": true,
+  "make_plots": true,
+  "viz_methods": [
+    "CW",
+    "NN",
+    "RL"
+  ],
+  "results_plot": "aggregated_results_N50.png",
+  "scheduler": "beam",
+  "truck_method": "alns",
+  "rl_policy": "pointer",
+  "scst_epochs": 0,
+  "scst_batch": 16,
+  "scst_beam": 8
+}
